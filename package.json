@@ -1,0 +1,8 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Legoqwe123/webpack.git",
+  "author": "Legoqwe <bill-137@mail.ru>",
+  "license": "MIT"
+}
