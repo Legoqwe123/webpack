@@ -1,2 +1,1 @@
-for (const item of object) {
-}
+import css from "./index.css";
