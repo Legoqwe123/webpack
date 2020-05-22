@@ -6,7 +6,7 @@ const getCommonConfig = require("./webpack.common");
 
 module.exports = () => {
   return merge(getCommonConfig(), {
-    mode: "production",
+    mode: "none",
     devtool: false,
   });
 };
