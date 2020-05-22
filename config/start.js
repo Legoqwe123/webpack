@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const DevServer = require("webpack-dev-server");
 const hot = require("webpack-hot-middleware");
 
-const webpackConfig = require("./webpack.config");
+const webpackConfig = require("./config/webpack.dev");
 const { HOST, PORT } = require("./constants");
 
 const compiler = webpack(webpackConfig());

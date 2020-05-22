@@ -7,18 +7,19 @@
     "start": "node \"./config/start.js\" "
   },
   "repository": "git@github.com:Legoqwe123/webpack.git",
-  "author": "Legoqwe <bill-137@mail.ru>",
+  "author": "Legoqwe123 prturkamalov@yandex.ru",
   "license": "MIT",
   "devDependencies": {
+    "app-root-path": "^3.0.0",
     "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.3.0",
+    "remove": "^0.1.5",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
-    "webpack-hot-middleware": "^2.25.0"
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-merge": "^4.2.2"
   },
-  "dependencies": {
-    "app-root-path": "^3.0.0"
-  }
+  "dependencies": {}
 }
