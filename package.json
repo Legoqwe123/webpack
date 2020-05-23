@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env-shell NODE_ENV=production node \"./config/build.js\" ",
-    "start": "cross-env-shell NODE_ENV=development node \"./config/start.js\" "
+    "build": "cross-env-shell NODE_ENV=production node \"./webpack/build.js\" ",
+    "start": "cross-env-shell NODE_ENV=development node \"./webpack/start.js\" "
   },
   "repository": "git@github.com:Legoqwe123/webpack.git",
   "author": "Legoqwe123 prturkamalov@yandex.ru",
