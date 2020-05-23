@@ -1,5 +1,7 @@
 module.exports = (api) => {
-  api.cache.never();
+  const envName = api.env();
+
+  api.cache.using(() => envName === "development");
 
   return {
     presets: [

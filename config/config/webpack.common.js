@@ -44,6 +44,20 @@ module.exports = () => {
           ],
         },
         {
+          test: /\.(png|jpe?g|gif)$/i,
+          loader: "file-loader",
+          options: {
+            name: "./images/[name].[ext]",
+          },
+        },
+        {
+          test: /\.(eot|svg|ttf|woff|woff2)$/,
+          loader: "file-loader",
+          options: {
+            name: "./fonts/[name].[ext]",
+          },
+        },
+        {
           test: /\.js?/,
           exclude: {
             test: /node_modules/,
