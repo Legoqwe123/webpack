@@ -11,6 +11,8 @@ const server = new DevServer(compiler, {
   host: HOST,
   port: PORT,
   historyApiFallback: true,
+  open: true,
+  openPage: `http://${HOST}:${PORT}`,
   overlay: true,
   quiet: true,
   clientLogLevel: "none",
