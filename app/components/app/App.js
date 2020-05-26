@@ -8,11 +8,11 @@ function App() {
   return (
     <>
       <Header />
-      <div className='container'>
-        <Route path='/' exact component={Homepage} />
+      <div className="container">
+        <Route path="/" exact component={Homepage} />
 
         <Route
-          path='test/:id'
+          path="test/:id"
           render={({ match }) => {
             const { id } = match.params;
             return <TestPage id={id} />;

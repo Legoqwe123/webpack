@@ -26,15 +26,16 @@ const CardWrapper = styled.div`
 
 const Card = ({ img, level, item, name }) => {
   return (
-    <CardBody className='card border-primary mb-3 mt-5'>
-      <div className='card-body p-0'>
-        <CardWrapper className='card-wrapper__img'>
-          <CardImage className='card-image' src={item[img]}></CardImage>
+    <CardBody className="card border-primary mb-3 mt-5">
+      <div className="card-body p-0">
+        <CardWrapper className="card-wrapper__img">
+          <CardImage className="card-image" src={item[img]} />
         </CardWrapper>
         <CardTitle>
-          <h4 className='card-title text-center mt-2'>{item[name]}</h4>
-          <p className='card-text text-center'>
-            Желательный уровень: {item[level]}
+          <h4 className="card-title text-center mt-2">{item[name]}</h4>
+          <p className="card-text text-center">
+            Желательный уровень:
+            {item[level]}
           </p>
         </CardTitle>
       </div>

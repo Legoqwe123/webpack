@@ -23,6 +23,7 @@ module.exports = (api) => {
           pure: true,
         },
       ],
+      "@babel/plugin-syntax-dynamic-import",
     ],
   };
 };
